@@ -52,7 +52,7 @@ class _HomePageState extends State<HomePage> {
                   Column(
                     children: [
                       IconButton(
-                        color: tap1 ? Colors.indigo : Colors.black54,
+                        color: tap1 ? Colors.indigo : Colors.black,
                         onPressed: () {
                           ScaffoldMessenger.of(context)
                             ..hideCurrentSnackBar()
@@ -62,6 +62,8 @@ class _HomePageState extends State<HomePage> {
                                     "Puedes encontrar comida en sus cafeterías"),
                               ),
                             );
+                          tap1 = !tap1;
+                          setState((() {}));
                         },
                         iconSize: 40,
                         icon: Icon(
@@ -77,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                   Column(
                     children: [
                       IconButton(
-                        color: tap2 ? Colors.indigo : Colors.black54,
+                        color: tap2 ? Colors.indigo : Colors.black,
                         onPressed: () {
                           ScaffoldMessenger.of(context)
                             ..hideCurrentSnackBar()
@@ -87,6 +89,8 @@ class _HomePageState extends State<HomePage> {
                                     "Puedes pedir información en rectoría"),
                               ),
                             );
+                          tap2 = !tap2;
+                          setState((() {}));
                         },
                         iconSize: 40,
                         icon: Icon(
@@ -112,6 +116,8 @@ class _HomePageState extends State<HomePage> {
                                     "Se encuentra ubicado en Periférico Sur 8585"),
                               ),
                             );
+                          tap3 = !tap3;
+                          setState((() {}));
                         },
                         iconSize: 40,
                         icon: Icon(
