@@ -10,6 +10,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -43,7 +44,7 @@ class _SnackBarPageState extends State<SnackBarPage> {
       margin: EdgeInsets.all(5),
       padding: EdgeInsets.all(5),
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.black),
+      border: Border.all(color: Colors.black),
       ),
       child: ListView(
         children: [
