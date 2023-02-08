@@ -1,0 +1,4 @@
+#Tue Feb 07 21:44:14 CST 2023
+base.0=C\:\\Programas\\Prog_Disp_Moviles\\Tarea Moviles\\tarea3\\tarea3_pdm_2023\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
