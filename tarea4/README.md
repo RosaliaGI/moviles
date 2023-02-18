@@ -1,16 +1,20 @@
-# list_view_cripto
+# Crypto APP
 
-A new Flutter project.
+### Temas
+1. Drawer
+2. JSON and serialization
+3. ListTile
+4. ListView
+5. Varias páginas
 
-## Getting Started
+## Lo que me costó más trabajo
 
-This project is a starting point for a Flutter application.
+- Lo que me costó más trabajo fue lo de Drawer, porque tuve que unvestigar primero cómo se hacía. Después de leer la documentación no estaba segura de como manejar lo de onPressed para que mostrara la información de las 3 opciones del Drawer.
 
-A few resources to get you started if this is your first Flutter project:
+- También me costó leer la información de los otros conjuntos de información, no fue igual que el de CRYPTO_EXCHANGES
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Lo que aprendí
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aprendí cómo se pueden usar los drawers y cómo estructurar mejor mi app, con diferentes páginas para que sea un código más limpio.
+
+## Screenshots de la app
