@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'constants.dart';
+import 'data/constants.dart';
 
 class Exchanges extends StatelessWidget {
   var exchanges = jsonDecode(CRYPTO_EXCHANGES) as List;

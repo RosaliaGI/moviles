@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'data/exchanges.dart';
+import 'exchanges.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
