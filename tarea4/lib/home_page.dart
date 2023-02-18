@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'exchanges.dart';
+import 'package:list_view_cripto/exchange_rates.dart';
+import 'package:list_view_cripto/exchanges_trending.dart';
+import 'package:list_view_cripto/exchanges.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
@@ -21,7 +23,7 @@ class HomePage extends StatelessWidget {
               child: Text('Menú'),
             ),
             ListTile(
-              title: const Text('CRYPTO_EXCHANGES'),
+              title: const Text('EXCHANGES'),
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
@@ -29,12 +31,19 @@ class HomePage extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text('Item 2'),
+              title: const Text('EXCHANGES RATES'),
               onTap: () {
-                // Update the state of the app
-                // ...
-                // Then close the drawer
-                Navigator.pop(context);
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => ExchangesRates()));
+              },
+            ),
+            ListTile(
+              title: const Text('EXCHANGES TRENDING'),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => ExchangesTrending()));
               },
             ),
           ],
